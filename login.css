@@ -1,0 +1,78 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgba(28, 187, 215,0.16);
+}
+
+#box{
+    height: 550px;
+    width: 370px;
+    background-color: rgb(28, 187, 215);
+    margin-left: 35%;
+    margin-top: 20px;
+    border-radius:15px;
+}
+
+#logo{
+    mix-blend-mode: color-burn;
+    text-align: center;
+}
+.le{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+#learn{
+    font-size: 40px;
+    text-align: center;
+}
+
+
+.input{
+    margin-left: 15px;
+    padding: 5px;
+    width: 300px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    background-color: rgb(28, 187, 215);
+}
+input placeholder{
+    color: white;
+}
+
+.login{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.log{
+    border: 1px solid rgba(35, 211, 211, 0.237);
+    font-size: 20px;
+    border-radius: 5cap;
+    text-align: center;
+    height: 30px;
+    width: 150px;
+    padding-top: 10px;
+    background-color: rgba(0, 67, 67, 0.237);
+    cursor: pointer;
+}
+.login a{
+    text-decoration: none;
+}
+.log:hover{
+    text-decoration: underline;
+    background-color: rgba(0, 67, 67, 0.437);
+}
+
+
+.terms{
+    margin-top: 50px;
+    text-align: center;
+}
+.terms a{
+    color: aquamarine;
+    text-decoration: none;
+}

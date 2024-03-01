@@ -1,0 +1,224 @@
+*{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* part1 */
+#nav{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(25, 26, 26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+#nav a{
+    text-decoration: none;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border: 1px solid rgb(25, 26, 26);
+    padding-top: 10px;
+    text-align: center;
+}
+#nav a:hover{
+    border: 1px solid white;
+    background-color: rgba(67, 70, 70, 0.9);
+}
+
+
+/* part2 */
+#heroimg{
+    /* background-image: url("studying.jpg"); */
+    height: 500px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: left; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#content{
+    font-size: 45px;
+    color: rgb(209, 179, 179);
+    margin-left: 0%;
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 7%;
+}
+
+#study{
+    width: 30px;
+}
+/* part 3*/
+#part1{
+    display: flex;
+    height: 60px;
+    font-size: 40px;
+    justify-content: center;
+    align-self: center;
+    background-color: gray;
+}
+
+
+#boxmain{
+    height: 220px;
+    display: flex;
+    justify-content: space-around;
+}
+#boxmain a{
+    text-decoration: none;
+}
+
+.box{
+    height: 190px;
+    width: 200px;
+    background-color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+.box-content{
+    font-size: 20px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.box-c{
+    margin-top: 20px;
+    height: 90px;
+    font-size: 1rem;
+    color: rgb(208, 159, 34);
+}
+.box1{
+    height: 10px;
+    background-color: blue;
+}
+.box2{
+    height: 10px;
+    background-color: rgb(72, 157, 111);
+}
+.box3{
+    height: 10px;
+    background-color: rgb(156, 198, 77);
+}
+.box4{
+    height: 10px;
+    background-color: rgb(196, 94, 50);
+}
+
+
+
+#part2{
+    background-image: url("img.jpg");
+    height: 850px;
+    width: 100%;
+    background-size: cover;
+}
+#part{
+    width: 500px;
+    margin-left: 15px;
+}
+#exp{
+    margin-top: 20px;
+    font-size: 60px;
+}
+#passion{
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.miss{
+    margin-top: 30px;
+    font-size: 40px;
+}
+.mi{
+    margin-bottom: 30px;
+}
+
+/* university */
+#search-university{
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(169, 199, 199);
+}
+.university{
+    margin-top: 20px;
+    padding-top: 30px;
+    height: 400px;
+    width: 20%;
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgb(172, 236, 236);
+}
+
+.univ{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.ass{
+    color: blue;
+}
+.more{
+    margin-top: 30px;
+}
+.skill{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+
+.skillcourses{
+    font-size: 40px;
+    height: 60px;
+    background-color: beige;
+    text-align: center;
+}
+
+.selectcourse{
+    height: 50px;
+    width: 20%;
+    border: 1px solid black;
+    border-radius: 5cap;
+    text-align: center;
+    padding-top: 25px;
+    background-color: aquamarine;
+}
+.selectcourse:hover{
+    color: white;
+    background-color: red;
+}
+
+#back{
+    color: white;
+    background-color: rgb(36, 33, 33);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    cursor: pointer;
+}
+#back a{
+    text-decoration: none;
+    color: white;
+}
+#info{
+    height: 100px;
+    background-color: rgb(84, 79, 79);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+#copy{
+    color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(46, 40, 40);
+}
